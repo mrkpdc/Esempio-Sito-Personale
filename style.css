@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Rubik:wght@400;700&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: whitesmoke;
+}
+
+#avatar {
+    width: 50%;
+}
+
+#enterBtn {
+    font-size: 35px;
+}
+
+#tabellaPartecipanti img {
+    width: 15%;
+    min-width: 50px;
+}
+
+.avatarForum {
+    width: 50%;
+    min-width: 50px;
+}
+
+#risposteForum img {
+    width: 25%;
+    min-width: 50px;
+}
+
+#photoshop-question-image {
+    width: 30%;
+    transition: opacity .2s ease-in-out;
+}
+
+#photoshop-question-image:hover {
+    opacity: 50%;
+}
